@@ -135,4 +135,4 @@ This project is licensed under the MIT License.
 
 Abdullah Zafar - [Abdullah Zafar](https://www.linkedin.com/in/eiabdullah/) - abdullah.zafar.career@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/ei-abdullah/blog-app]([https://github.com/your_username/repo_name](https://github.com/ei-abdullah/blog-app))
