@@ -24,8 +24,6 @@ Use the `README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
 - [EJS](https://ejs.co/)
 - [Express.js](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en)
@@ -54,8 +52,8 @@ Before you begin, ensure you have the following installed on your system:
 Open your terminal and run the following command to clone the repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/blog-management-system.git
-cd blog-management-system
+git clone https://github.com/ei-abdullah/blog-app.git
+cd blog-app
 ```
 
 #### 2. Install dependencies:
