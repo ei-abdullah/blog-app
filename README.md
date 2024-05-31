@@ -86,7 +86,7 @@ localhost:3000
 
 ## Usage
 
-One the application is running, you can start using its features:
+Once the application is running, you can start using its features:
 
 - Write a Blog:
 
