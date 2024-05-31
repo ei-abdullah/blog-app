@@ -1,0 +1,16 @@
+<section class="blog-display">
+  <div class="writer-name-gender">
+    <div class="blog-name">
+      <h2><% if(blogData.name) { %> <%= blogData.name %> <% } %></h2>
+    </div>
+    <div class="blog-gender">
+      <h2><% if(blogData.gender) { %> <%= blogData.gender %> <% } %></h2>
+    </div>
+  </div>
+  <div class="writer-blog">
+    <p class="blog">
+      <% if(blogData.blog) { %> <%= blogData.blog %> <% } %>
+    </p>
+  </div>
+</section>
+

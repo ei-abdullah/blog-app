@@ -1,0 +1,27 @@
+section.blog-section {
+  height: 90vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  gap: 100px;
+  align-items: center;
+}
+
+div.write-edit-blog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+input[type="submit"] {
+    margin-top: 100px;
+  padding: 4px 15px 4px 15px;
+  border-radius: 5px;
+  border: 5px dotted lightgray;
+  background-color: blanchedalmond;
+  width: 180px;
+}
+
+
+

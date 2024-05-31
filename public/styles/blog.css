@@ -1,0 +1,17 @@
+section.blog-display {
+    width: 70vw;
+}
+
+div.writer-name-gender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    text-decoration: underline;
+}
+
+div.writer-blog {
+    padding: 10px 20px 10px 20px;
+    text-indent: 100px;
+    text-align: justify;
+}

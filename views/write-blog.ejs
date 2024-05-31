@@ -1,0 +1,51 @@
+<%- include("partials/header.ejs") %>
+
+<section class="write-blog-container">
+  <h2 class="write-blog-head">Write Your Own Blog!</h2>
+
+  <form
+    class="form-section"
+    action="/submitblog"
+    class="write-blog-form"
+    method="POST"
+  >
+    <div class="name-section">
+      <h4>Enter your name</h4>
+      <input
+        class="name-input"
+        type="text"
+        name="writer-name"
+        placeholder="Name"
+        value="<%= blogData.name %>"
+      />
+    </div>
+
+    <div class="gender-section">
+      <h4>Gender</h4>
+      <div class="gender-radio">
+        <input type="radio" name="writer-gender" value="Male" <%=
+        blogData.gender === 'Male' ? 'checked' : '' %>>
+        <label for="Male">Male</label>
+        <br />
+        <input type="radio" name="writer-gender" value="Female" <%=
+        blogData.gender === 'Female' ? 'checked' : '' %>>
+        <label for="Female">Female</label>
+        <br />
+        <input type="radio" name="writer-gender" value="Others" <%=
+        blogData.gender === 'Others' ? 'checked' : '' %>>
+        <label for="Others">Others</label>
+      </div>
+    </div>
+
+    <div class="write-blog-textarea">
+      <h4>Your Blog</h4>
+      <textarea name="writer-blog" class="blog-textarea">
+<%= blogData.blog %></textarea
+      >
+    </div>
+
+    <input class="blog-submit" type="submit" value="submit blog" />
+  </form>
+</section>
+
+<%- include("partials/footer.ejs") %>

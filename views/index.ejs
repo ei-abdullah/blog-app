@@ -1,0 +1,23 @@
+<%- include("partials/header.ejs") %>
+<section class="blog-section">
+  <div class="write-edit-blog">
+    <form action="/writeblog" method="POST">
+      <input class="submit-blog-btn" type="submit" value="write-blog" />
+    </form>
+    <form action="/editblog" method="POST">
+      <input type="hidden" name="writer-name" value="<%= blogData.name %>" />
+      <input type="hidden" name="writer-gender" value="<%= blogData.gender %>" />
+      <input type="hidden" name="writer-blog" value="<%= blogData.blog %>" />
+      <input class="edit-blog-btn" type="submit" value="edit-blog" />
+    </form>
+    <form action="/deleteblog" method="POST">
+      <input type="hidden" name="writer-name" value="" />
+      <input type="hidden" name="writer-gender" value="" />
+      <input type="hidden" name="writer-blog" value="" />
+      <input class="edit-blog-btn" type="submit" value="delete-blog" />
+    </form>
+  </div>
+  <div class="blog"><%- include("partials/blog.ejs") %></div>
+</section>
+
+<%-include("partials/footer.ejs") %>
